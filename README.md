@@ -12,6 +12,10 @@ OS: Ubuntu 18.04.3 LTS
 
 ## bug reproduction steps
 
+you may be able to reproduce with a two repo setup both on "devel" branch and doing steps up to 12
+
+to reporduce from a blank: 
+
 1 clone this repo  
 
 2 create a settings.json file  
