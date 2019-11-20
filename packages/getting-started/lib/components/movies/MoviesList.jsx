@@ -24,7 +24,7 @@ const MoviesList = ({ loading, results }) => (
 
 const options = {
   collection: Movies,
-  // fragmentName: 'MovieFragment', // uncomment on #Step11
+  fragmentName: 'MovieFragment', // uncomment on #Step11
 }
 
 registerComponent({ name: 'MoviesList', component: MoviesList, hocs: [ [withMulti2, options] ] }); // uncomment on #Step10
