@@ -24,10 +24,10 @@ const schema = {
     Uncomment on #Step12:
 
     */
-    // resolveAs: {
-    //   fieldName: 'user',
-    //   type: 'User',
-    // },
+    resolveAs: {
+      fieldName: 'user',
+      type: 'User',
+    },
   },
 
   name: {
