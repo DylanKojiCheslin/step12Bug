@@ -8,10 +8,19 @@ on step 12 there is intended to be the "user's displayName next to their review"
 
 OS: Ubuntu 18.04.3 LTS
 
-bug reproduction steps
+## bug reproduction steps
 
 1 clone this repo
-create a settings.json file
+2 create a settings.json file
 
 
-N clone Vulcan core repo and change it to the "devel" branch 
+4 create dir and inside it clone Vulcan core repo and change it to the "devel" branch 1.14.0 or use existing core repo on "devel" branch 1.14.0
+
+5 run with following, but change it to point to your core vulcan repo
+```
+METEOR_PACKAGE_DIRS="/home/dylan/Documents/http/vulcanBugRepos/1/Vulcan/packages" meteor --port 3000 --settings settings.json
+```
+
+5 install any necessary dependencies
+
+6 navaigate to step 12 : relations page at http://localhost:3000/step/12
