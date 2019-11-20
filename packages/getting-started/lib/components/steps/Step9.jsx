@@ -37,7 +37,7 @@ query QueryResolvers{
 
 const Step9 = () => (
   <Components.Step step={9} text={text} after={after}>
-    {/* <Components.Resolvers /> */}
+    { <Components.Resolvers /> }
   </Components.Step>
 );
 
